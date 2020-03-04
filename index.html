@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro" ?>
+<header>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="loto.css" />
+    <title>Loto</title>
+</header>
+
+<body>
+    <section>
+        <h3>Loto</h3>
+        <div class="container">
+            <div class="div1">
+                <button onclick="document.getElementById('6/49').innerHTML = extrageNumere(6,49)">6/49</button>
+                <p id="6/49"></p>
+            </div>
+            <div class='div2'>
+                <button
+                    onclick="document.getElementById('5/45').innerHTML = extrageNumere(5,45) + ' Joker: ' + extrageNumere(1,20)">5/45
+                    +
+                    Joker</button>
+                <p id="5/45"></p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="loto.js"></script>
+
+</html>

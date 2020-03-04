@@ -1,0 +1,29 @@
+body {
+    background-color: #043a00;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    margin-left: 20vw;
+}
+
+.div1,
+.div2 {
+    margin-top: 20vh;
+    margin-left: 27vw;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #3affd4;
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+}
